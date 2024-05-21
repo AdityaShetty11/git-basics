@@ -1,0 +1,9 @@
+git branch
+    gives the current branch name
+
+git status
+    gives us an overview of stagged and untracked files.
+
+git add fileName
+    moves file named fileName to stagging area.
+    
