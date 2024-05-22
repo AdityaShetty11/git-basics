@@ -7,3 +7,22 @@ git status
 git add fileName
     moves file named fileName to stagging area.
     
+git branch newBranchName
+    creates a new branch with name newBranchName
+
+echo Hello world! > newFile.txt
+    Echo command is used to write content to a file.
+    Here Hello world! is written on to a text file named newFile.txt
+    Echo is not a git command
+
+git log
+    gives details about commits in the branch
+
+git show <hash value>
+    gives info about a particular commit, based on the hash value provided
+    
+git show --name-only <hash>
+    gives only the fileName that were modified in the particular commit
+
+git reflog
+    gives info on all commits on all branchs
